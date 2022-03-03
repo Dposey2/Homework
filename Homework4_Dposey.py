@@ -27,21 +27,21 @@
 #                 else:
 #                     print("There is no employee with that ID")
 #                     continue
-                
+               
 #             elif choice == "B" or choice == "b":
-#                 new_employee_name = input(str("Please enter the name of the new employee\n"))
-#                 ID_number = input(str("Please enter the ID number of the new employee\n"))
-#                 new_department = input(str("Please enter the new employees department\n"))
-#                 new_job_title = input(str("Please enter the new employees job title\n"))
+#                 new_employee_name = str(input("Please enter the name of the new employee\n"))
+#                 ID_number = str(input("Please enter the ID number of the new employee\n"))
+#                 new_department = str(input("Please enter the new employees department\n"))
+#                 new_job_title = str(input("Please enter the new employees job title\n"))
 #                 employees[ID_number] = Employee(new_employee_name, ID_number,new_department,new_job_title)
 #                 print("New employee in dictionary: ")
 #                 for i  in employees:
 #                     print(employees[i])
 #             elif choice == "C" or choice == "c":
-#                 employee_choice = input(str("Please enter the employee you wish to change\n A. 47899 \n B. 39119 \n C. 81774 \n"))
-#                 changed_employee_name = input(str("Please enter the name you would like to change the employee to"))
-#                 changed_employee_department = input(str("Please enter the new department"))
-#                 changed_employee_job_title = input(str("Please enter the new job title"))
+#                 employee_choice = str(input("Please enter the employee you wish to change\n A. 47899 \n B. 39119 \n C. 81774 \n"))
+#                 changed_employee_name = str(input("Please enter the name you would like to change the employee to"))
+#                 changed_employee_department = str(input("Please enter the new department"))
+#                 changed_employee_job_title = str(input("Please enter the new job title"))
 #                 if employee_choice == "A":
 #                     employees["47899"] = Employee(changed_employee_name,47899, changed_employee_job_title, changed_employee_department)
 #                     print("Employee with changed values")
@@ -58,7 +58,7 @@
 #                     for i in employees:
 #                         print(employees[i])
 #             elif choice == "D" or choice == "d":
-#                 employee_delete = input(str("Please enter the employee you wish to delete\n A. 47899 \n B. 39119 \n C. 81774 \n"))
+#                 employee_delete = str(input("Please enter the employee you wish to delete\n A. 47899 \n B. 39119 \n C. 81774 \n"))
 #                 if(employee_delete == "A" or employee_delete == "a"):
 #                     del employees["47899"]
 #                 elif(employee_delete == "B" or employee_delete == "b"):
