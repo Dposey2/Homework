@@ -1,4 +1,5 @@
 #Question 1
+#This program creates a dictionary of morse code letters and number and punctuations. It then converts a user inputted string into morse code.
 # morse_code_str = ' '
 # norm_string = str(input("Please eneter a string you want to be translated into morse code"))
 # morse_code = { 'A':'.-', 'B':'-...',
@@ -17,6 +18,7 @@
 # print(morse_code_str)
 
 #Question 2
+#This program gets the number of consonants and vowels in a user inputted string.
 # def find_vowels(input_string):
 #     vowel_count = 0
 #     for i in input_string:
@@ -38,7 +40,7 @@
 
 
 #Question 3
-
+#This program does various things to lists that are provided.
 # #1
 # def find_digits(str1):
 
@@ -101,6 +103,7 @@
 # print(modified_str)
 
 # #Question 4
+#This program uses n number of integer inputs with values ranges from 0 to 100 including 0 and 100 and finds the average, median, and standard deviation. It then makes a new list holds the division of the numbers from the first list.
 # import statistics
 
 # lst_nums = []
@@ -133,6 +136,7 @@
 # print(new_lst_nums)
 
 #Question 5
+#This program does various this to the string "this is the string for the class"
 str1 = "this is the string for the class"
 #1
 count = 0
