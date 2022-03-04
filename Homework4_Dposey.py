@@ -1,3 +1,5 @@
+#1
+#This progarm creates the employee class and employees dictionary, then outputs a menu for the user to enter what they want to do in the dictionary.
 # class Employee:
 #     def __init__(self,name,ID_number,department,job_title):
 #         self.__name = name
@@ -69,7 +71,8 @@
 #                 for i in employees:
 #                     print(employees[i])
 
-
+#2
+#This program gets a list of 20 numbers, and finds the lowest number,  highest number, total of the numbers,  and the average of the numbers.
 # lst_nums = []
 # for i in range(0,20):
 #     num = int(input("Please enter a series of 20 numbers"))
@@ -94,6 +97,8 @@
 # print("The total of the numbers in the list is",total)
 
 
+#3
+#This program asks the user to enter a number and displays all the numbers up to and including that number, with their squared value next to them.
 # n = int(input("Please input your max"))
 # num_dictionary = dict()
 # for i in range(1, n+1):
@@ -102,7 +107,8 @@
 # print(num_dictionary)
 
 
-
+#4
+#This program generates a random list of 100 numbers, and finds the second largest without sorting, it then removes the repeating elemnts in the list and displays it.
 import random
 
 def find_highest():
